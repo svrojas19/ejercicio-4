@@ -1,0 +1,27 @@
+html{
+    background-color: whitesmoke;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+main{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    width: 0%;
+}
+
+.row{
+    display: flex;
+    margin: 0;
+    width: 0;
+}
+.figure img{
+    margin: 0%;
+    padding: 30px;
+}
