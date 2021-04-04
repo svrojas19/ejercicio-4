@@ -1,27 +1,120 @@
-html{
-    background-color: whitesmoke;
-}
-
 body{
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
 }
 
 main{
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .container{
-    width: 0%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.row{
+.container .row{
+    width: 90%;
+    height: 90vh;
     display: flex;
-    margin: 0;
-    width: 0;
 }
-.figure img{
-    margin: 0%;
-    padding: 30px;
+
+.container .row .col-40{
+    width: 40%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .row .col-40 img{
+    border-radius: 15px;
+}
+
+.container .row .col-60{
+    width: 60%;
+    height: 90vh;
+}
+
+.container .row .col-60 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    margin-left: 50px;
+}
+
+.container .row .col-60 form{
+    margin-left: 50px;
+}
+
+.container .row .col-60 form div:nth-child(1) ul{
+    list-style: none;
+}
+
+.container .row .col-60 form div:nth-child(1) ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.container .row .col-60 form div:nth-child(1) ul li input{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.container .row .col-60 form div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.container .row .col-60 form div:nth-child(2) input{
+    width: 25%;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid gray;
+    margin-right: 10px;
+}
+
+.container .row .col-60 form div:nth-child(3){
+    margin-top: 40px;
+}
+
+.container .row .col-60 form div:nth-child(3) h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+.container .row .col-60 form div:nth-child(3) textarea{
+    width: 90%;
+    max-width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    outline: none;
+}
+
+.container .row .col-60 form div:nth-child(4) button{
+    border-radius: 15px;
+    background-color: purple;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 95%;
+    font-size: 1.2rem;
+    margin-top: 40px;
+}
+
+.container .row .col-60 form div:nth-child(4) button:hover{
+    color:purple;
+    background-color: white;
+    border: 1px solid purple;
+    cursor: pointer;
 }
